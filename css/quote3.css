@@ -1,0 +1,40 @@
+body {
+    background-image: url(../imgs/abe1.png);
+    background-size: 100%;
+}
+
+
+h4 , h5 {
+    font-family: 'Quando', serif;
+    color: #fcdfa1;
+    font-size: 300%;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    margin-top: 5px;
+}
+
+div#quote {
+    display: none;
+}
+
+div#prev {
+    height: 200px;
+    width: 25%;
+    margin: 0px;
+    padding: 35px;
+    float: left;
+}
+
+div#next {
+    height: 200px;
+    width: 25%;
+    margin: 0px;
+    padding: 35px;
+    float: right;
+}

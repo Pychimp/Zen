@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Lobster Two;
+    src: url('../fonts/LobsterTwo-Regular.ttf');
+}
+
+body {
+    background-image: url(../imgs/slideback1.png);
+    background-size: 100%;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+h4, h5{
+    font-family: 'Lobster Two', Helevetica, sans-serif;
+    font-size: 450%;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    padding-top: 35px;
+    margin-top: 0px;
+}
+
+div#quote {
+    display: none;
+}
+
+div#prev {
+    height: 200px;
+    width: 25%;
+    margin: 0px;
+    padding: 35px;
+    float:left;
+}
+
+div#next {
+    height: 200px;
+    width: 25%;
+    margin: 0px;
+    padding: 35px;
+    float: right;
+}

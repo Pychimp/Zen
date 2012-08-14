@@ -1,0 +1,23 @@
+@font-face {
+    font-family: comic;
+    src: url(../fonts/comic.ttf);
+}
+
+body {
+    font-family: comic;
+    font-size: 250%;
+    background-image: url('../imgs/facepalm.png');
+    background-size: 49%;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: right;
+}
+
+div#next {
+    float: right;
+    width: 500px;
+    height: 500px;
+    margin-top: 10%;
+}

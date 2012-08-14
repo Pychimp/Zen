@@ -1,0 +1,25 @@
+@font-face {
+    font-family: comic;
+    src: url('../fonts/comic.ttf');
+}
+
+body {
+    font-family: comic;
+    background-image: url(../imgs/thumbsup.png);
+    background-repeat: no-repeat;
+}
+
+h4 {
+    text-align: right;
+    font-size: 520%;
+    margin-right: 10px;
+    padding-top: 7%;
+}
+
+div#prev {
+    height:200px;
+    width: 25%;
+    margin: 0px;
+    padding: 35px;
+    float: left;
+}

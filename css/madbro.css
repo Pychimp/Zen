@@ -1,0 +1,30 @@
+@font-face {
+    font-family: comic;
+    src: url('../fonts/comic.ttf');
+}
+
+body {
+    font-family: comic;
+    background-image: url('../imgs/trollface.png');
+    background-size: 56%;
+    background-repeat: no-repeat;
+    text-align: right;
+    font-size: 385%;
+    padding-right: 21px;
+}
+
+div#prev {
+    height: 200px;
+    width: 25%;
+    margin: 0px;
+    padding: 35px;
+    float: left;
+}
+
+div#next {
+    height: 200px;
+    width: 25%;
+    margin: 0px;
+    padding: 35px;
+    float: right;
+}
